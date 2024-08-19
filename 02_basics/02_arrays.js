@@ -9,19 +9,19 @@ const dc_heroes = ["batman", "superman", "flash"]
 // const allHeroes = marvel_heroes.concat(dc_heroes)
 // console.log(allHeroes);
 
-// const allHeroes = [...marvel_heroes, ...dc_heroes] // spread operator
+// const allHeroes1 = [...marvel_heroes, ...dc_heroes] // spread operator you can add many var unlike concat where only 2 can be merged
 
-// console.log(allHeroes);
+// console.log(allHeroes1);
 
-// const another_array = [1,2,3, [4,5,6],[1,6,[5,9]]]
-// const another_array_2 = another_array.flat(Infinity)
+const another_array = [1,2,3, [4,5,6],[1,6,[5,9]]]
+const another_array_2 = another_array.flat(Infinity)
 
-// console.log(another_array_2);
+console.log(another_array_2);
 
 
-console.log(Array.isArray("RAJ"));
-console.log(Array.from("RAJ"));
-console.log(Array.from({name: "RAJ"})); //interesting
+// console.log(Array.isArray("RAJ"));
+// console.log(Array.from("RAJ"));
+// console.log(Array.from({name: "RAJ"})); //interesting
 
 let score1 = 100
 let score2 = 200
